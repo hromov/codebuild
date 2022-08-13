@@ -2,6 +2,7 @@ package notification
 
 import "log"
 
+//go:generate mockgen --destination ../mocks/TopicSender.go --package=mocks . TopicSender
 type TopicSender interface {
 	Send(msg string) error
 }
