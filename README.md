@@ -1,1 +1,1 @@
-# codebuild
+# notification service with Go
